@@ -1,0 +1,12 @@
+.Home {
+  max-width: 700px;
+  margin: auto;
+  width: 100%;
+  border-right: 1px solid rgba(128, 128, 128, 0.281);
+  border-left: 1px solid rgba(128, 128, 128, 0.281);
+}
+
+.Container {
+  display: grid;
+  gap: 2rem;
+}

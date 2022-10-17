@@ -1,0 +1,19 @@
+.OverFlowSliderButton {
+  margin: 0rem !important;
+  display: unset;
+  position: fixed;
+  padding: 0px;
+  height: fit-content;
+  display: block;
+  right: 0px;
+  width: 45px !important;
+}
+
+.OverFlowSlider {
+  min-height: 60px;
+  align-items: center;
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+  width: 100%;
+}
