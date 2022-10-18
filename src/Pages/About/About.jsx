@@ -11,7 +11,10 @@ export default function About() {
         </div>
 
         <div>
-          Welcome 
+           
+          <button>
+          Welcome
+          </button>
         </div>
     </div>
   );
