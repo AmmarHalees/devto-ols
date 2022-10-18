@@ -22,13 +22,14 @@ export default function Home() {
   return (
     <div className={styles.Home}>
       <div className={styles.Container}>
-        <img src="https://images.unsplash.com/photo-1607083206325-caf1edba7a0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2677&q=80" />
         <YouMightLike
           data-testid="youMightLikeWrapper"
           title="You might also like"
           data={data}
           onItemClick={onItemClick}
         />
+        <img src="https://images.unsplash.com/photo-1607083206325-caf1edba7a0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2677&q=80" />
+
         <YouMightLike title="Top sellers" data={data} />
         <Card title="Summer Sale" />
         <TheBestCollection
