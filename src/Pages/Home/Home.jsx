@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-import Card from "../Components/Card/Card";
-import SnackBar from "../Components/SnackBar/SnackBar";
-import YouMightLike from "../Components/YouMightLike/YouMightLike";
+import Card from "../../Components/Card/Card";
+import SnackBar from "../../Components/SnackBar/SnackBar";
+import YouMightLike from "../../Components/YouMightLike/YouMightLike";
 import styles from "./Home.module.scss";
 import data from "../data.json";
 import TheBestCollection from "../Components/TheBestCollection/TheBestCollection";
@@ -61,6 +61,10 @@ export default function Home() {
             },
           ]}
         />
+        <YouMightLike title="Near You" data={data} />
+        <div data-testid="footer" className={styles.footer}>
+          Footer
+        </div>
       </div>
       <SnackBar
         open={isSnackBarVisible}
