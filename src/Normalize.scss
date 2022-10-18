@@ -1,5 +1,3 @@
-/*------------------------------------(Normalize/reset)------------------------------------*/
-
 html {
   font-size: 100%;
   max-width: 100%;
@@ -12,7 +10,7 @@ html {
 
 * {
   box-sizing: border-box;
-  font-family: var(--font-family, sans-serif, Arial, Helvetica);
+  font-family: var(sans-serif, Arial, Helvetica);
 }
 
 body {
@@ -42,43 +40,14 @@ ul {
 }
 
 a {
-  color: var(--text-color-80);
-  transition: all var(--speed) linear;
   text-decoration: none;
   border-radius: 5px;
   padding: 1rem;
   overflow: hidden;
 
-  & svg {
-    stroke: var(--text-color-80);
-    transition: all var(--speed) linear;
-  }
-
-  &:hover {
-    color: var(--info-bg-color);
-
-    & > svg {
-      stroke: var(--info-bg-color);
-    }
-  }
-
   &:focus {
     box-shadow: none;
     outline: none;
-    color: var(--info-bg-color);
-
-    & > svg {
-      stroke: var(--info-bg-color);
-    }
-  }
-
-  &.active {
-    color: var(--info-bg-color);
-    border-color: var(--info-bg-color);
-
-    svg {
-      stroke: var(--info-bg-color);
-    }
   }
 }
 
@@ -89,7 +58,6 @@ h4,
 h5,
 h6,
 button {
-  color: var(--text-color-100);
   word-break: break-word;
 }
 
@@ -103,11 +71,6 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-}
-
-p,
-span {
-  color: var(--text-color-80);
 }
 
 li,
