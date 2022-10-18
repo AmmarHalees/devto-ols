@@ -4,8 +4,8 @@ import Card from "../../Components/Card/Card";
 import SnackBar from "../../Components/SnackBar/SnackBar";
 import YouMightLike from "../../Components/YouMightLike/YouMightLike";
 import styles from "./Home.module.scss";
-import data from "../data.json";
-import TheBestCollection from "../Components/TheBestCollection/TheBestCollection";
+import data from "../../data.json";
+import TheBestCollection from "../../Components/TheBestCollection/TheBestCollection";
 
 const snackBarData = "Welcome to the App";
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <div className={styles.Home}>
       <div className={styles.Container}>
-        <Card title="Summer Sale" />
+        <img src="https://images.unsplash.com/photo-1607083206325-caf1edba7a0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2677&q=80" />
         <YouMightLike
           data-testid="youMightLikeWrapper"
           title="You might also like"
@@ -30,7 +30,7 @@ export default function Home() {
           onItemClick={onItemClick}
         />
         <YouMightLike title="Top sellers" data={data} />
-        <Card title="Limitied Time Only" var="var1" />
+        <Card title="Summer Sale" />
         <TheBestCollection
           title="Our top picks"
           data={[
