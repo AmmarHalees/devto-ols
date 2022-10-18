@@ -26,6 +26,9 @@ export default function Home() {
         <YouMightLike title="Top sellers" data={data} />
         <Card title="Limitied Time Only" var="var1" />
         <YouMightLike title="Near You" data={data} />
+        <div data-testid="footer" className={styles.footer}>
+          Footer
+        </div>
       </div>
       <SnackBar 
         open={isSnackBarVisible} 
