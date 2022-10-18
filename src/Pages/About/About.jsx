@@ -8,14 +8,12 @@ export default function About() {
     <div className={styles.Home}>
       <div className={styles.Container}>
         Ruwaid && Ammar
-        </div>
-
-        <div>
-           
-          <button>
-          Welcome
-          </button>
-        </div>
+      </div>
+      <div>          
+        <button>
+        Welcome
+        </button>
+      </div>
     </div>
   );
 }
