@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import Card from "../Components/Card/Card";
-import SnackBar from "../Components/SnackBar/SnackBar";
-import YouMightLike from "../Components/YouMightLike/YouMightLike";
+import Card from "../../Components/Card/Card";
+import SnackBar from "../../Components/SnackBar/SnackBar";
+import YouMightLike from "../../Components/YouMightLike/YouMightLike";
 import styles from "./Home.module.scss";
-import data from "../data.json";
+import data from "../../data.json";
 
 const snackBarData = 'Welcome to the App'
 export default function Home() {
