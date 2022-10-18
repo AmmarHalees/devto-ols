@@ -11,7 +11,7 @@ export default function SnackBar({ open, data, onClose }) {
   
 
 const content = (
-<div data-testId="snackbarWrapper" className={styles.SnackBarContainer}>
+<div data-testid="snackbarWrapper" className={styles.SnackBarContainer}>
   <div className={styles.SnackBar}>
     <p className={styles.content}>{data}</p>
   </div>

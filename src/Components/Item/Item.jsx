@@ -10,7 +10,7 @@ export default function Item({ title, image, tag, onClick }) {
   return (
     <div className={styles.Item} onClick={handelOnClick}>
       <img src={image} />
-      <h3 data-testId="cardTitle">{title}</h3>
+      <h3 data-testid="cardTitle">{title}</h3>
       <p>{tag}</p>
       <HeartIcon />
     </div>
